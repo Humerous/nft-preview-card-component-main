@@ -22,11 +22,14 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
+### Screenshots
 
 ![Desktop-View](https://github.com/Humerous/nft-preview-card-component-main/blob/main/NFT%20desktop%20screenshot.jpg)
 
 ![Mobile-View](https://github.com/Humerous/nft-preview-card-component-main/blob/main/NFT%20mobile%20screenshot.jpg)
+
+![Hover-state-View](https://github.com/Humerous/nft-preview-card-component-main/blob/main/NFT%20Hover%20state.jpg)
+
 
 ### Links
 
