@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- /* Stylesheet link */ -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- /* Google font import */ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main>
+      <section class="section-card">
+        <!-- Main Image and hover Image -->
+        <div class="img-container">
+          <img
+            class="main-img"
+            src="./images/image-equilibrium.jpg"
+            alt="equilibrium Image"
+          />
+          <div class="img-hover">
+            <img
+              src="./images/icon-view.svg"
+              alt="Eye should appear when you hover over the main images"
+            />
+          </div>
+        </div>
+
+        <!-- Heading and Title -->
+        <h1 class="card-heading hover--over">Equilibrium #3429</h1>
+        <p class="card-subheading">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <!-- Price and Time left -->
+        <div class="section-description">
+          <div class="card-price">
+            <img src="./images/icon-ethereum.svg" alt="SVG Etherum logo" />
+            <span class="price"> 0.041 ETH</span>
+          </div>
+          <div class="card-day">
+            <img src="./images/icon-clock.svg" alt="Clock SVG" />
+            <span class="day">3 days left</span>
+          </div>
+        </div>
+
+        <!-- Creator Section -->
+        <div class="section-creator">
+          <img
+            class="creator-img"
+            src="./images/image-avatar.png"
+            alt="Image of NFT creator"
+          />
+          <p class="creator-title">
+            Creation of
+            <span class="creator-name hover--over">Jules Wyvern</span>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">David Miller 🧸</a>.
+    </div>
+  </body>
+</html>

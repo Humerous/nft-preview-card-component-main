@@ -1,0 +1,220 @@
+/*  
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
+
+01 - Typography
+
+- Font sizes (px)
+
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+*/
+
+/**************************/
+/* GENERAL COMPONENTS */
+/**************************/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap'); */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  line-height: 1;
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover--over:hover,
+.hover--over:active {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+/**************************/
+/* SECTION COMPONENTS */
+/**************************/
+
+.section-card {
+  width: 37.5rem;
+  background-color: hsl(216, 50%, 16%);
+  padding: 2.5rem;
+  border-radius: 1.1rem;
+}
+
+.card-heading {
+  font-size: 2.1rem;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.1rem;
+  margin: 2.4rem 0 2.4rem 0;
+}
+
+.card-subheading {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: hsl(214, 30%, 45%);
+  margin: 2.4rem 0 0 0;
+}
+
+.section-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price {
+  font-size: 1.6rem;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.card-day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.day {
+  font-size: 1.6rem;
+  color: hsl(214, 30%, 45%);
+}
+
+.section-creator {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.2rem;
+  margin-top: 2.4rem;
+}
+
+.creator-title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: hsl(214, 30%, 45%);
+}
+
+.creator-title span {
+  color: hsl(0, 0%, 100%);
+}
+
+.creator-img {
+  width: 3.2rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+/**************************/
+/* IMAGE COMPONENTS */
+/**************************/
+
+.img-container {
+  position: relative;
+}
+
+.main-img {
+  display: block;
+  width: 100%;
+  border-radius: 1.1rem;
+}
+
+.img-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+/**************************/
+/* IMAGE HOVER EFFECT */
+/**************************/
+
+.img-container:hover .img-hover,
+.img-container:active .img-hover {
+  opacity: 1;
+}
+
+.img-container:hover .main-img,
+.img-container:active .main-img {
+  opacity: 0.45;
+}
+
+.main-img:hover,
+.main-img:active {
+  color: hsl(178, 100%, 50%);
+}
+
+.img-container:hover,
+.img-container:active {
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 1.1rem;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+/**************************/
+/* FOOTER COMPONENTS */
+/**************************/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
