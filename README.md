@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop-View]()
+![Desktop-View](https://github.com/Humerous/nft-preview-card-component-main/blob/main/NFT%20desktop%20screenshot.jpg)
 
-![Mobile-View]()
+![Mobile-View](https://github.com/Humerous/nft-preview-card-component-main/blob/main/NFT%20mobile%20screenshot.jpg)
 
 ### Links
 
-- Live Site URL: ()
+- Live Site URL: (https://nft-preview-card-component-main-tan.vercel.app/)
 
 ## My process
 
